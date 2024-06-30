@@ -1,4 +1,3 @@
-import pytest
 from selene import browser, be
 from conftest import setup_screen_resolution
 
