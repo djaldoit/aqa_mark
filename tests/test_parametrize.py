@@ -1,4 +1,4 @@
-from conftest import screen_resolution
+from tests.conftest import screen_resolution
 from selene import browser, be
 import pytest
 

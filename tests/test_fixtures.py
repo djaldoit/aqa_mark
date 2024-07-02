@@ -1,5 +1,5 @@
 from selene import browser, be
-from conftest import setup_screen_resolution
+from tests.conftest import setup_screen_resolution
 
 
 def test_github_desktop(setup_screen_resolution):

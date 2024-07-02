@@ -1,6 +1,6 @@
 import pytest
 from selene import browser, be
-from conftest import setup_screen_resolution
+from tests.conftest import setup_screen_resolution
 
 
 @pytest.mark.parametrize("setup_screen_resolution", ["1920x1080", "540x960"], indirect=True)
